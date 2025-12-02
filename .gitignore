@@ -1,0 +1,56 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Redis
+*.rdb
+*.aof
+appendonly.aof*
+nodes.conf
+dump.rdb
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if any)
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Build artifacts
+build/
+dist/
+.gradle/
+target/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+.env
+.env.*
